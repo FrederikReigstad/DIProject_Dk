@@ -16,8 +16,34 @@ public class StudentService
     {
         if (student == null)
         {
-            throw new AggregateException("Student cannot be null");
+            throw new ArgumentException("Student cannot be null");
         }
+
+        ThrowIfIsInvalid(student);
+        
         _repository.Add(student);
+    }
+
+    private void ThrowIfIsInvalid(Student s)
+    {
+        if (s.ID <= 0)
+        {
+            throw new ArgumentException("ID Must be positive number");
+        }
+
+        if (s.Name == null)
+        {
+            throw new ArgumentException("Name Canot be null");
+        }
+        
+        if (s.Name == "")
+        {
+            throw new ArgumentException("Name Canot be Empty");
+        }
+
+        if (s.Email == "")
+        {
+            throw new ArgumentException("Email Canot be Empty");
+        }
     }
 }
