@@ -14,6 +14,10 @@ public class StudentService
 
     public void AddStudent(Student student)
     {
+        if (student == null)
+        {
+            throw new AggregateException("Student cannot be null");
+        }
         _repository.Add(student);
     }
 }
