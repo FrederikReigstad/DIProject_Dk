@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUintTestDIProject", "XUintTestDIProject\XUintTestDIProject.csproj", "{18C4830C-8FA0-4D45-B4DB-137B1B1A291E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIProject", "DIProject\DIProject.csproj", "{7B62D97B-251D-4F7D-91E8-62F58AD33CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18C4830C-8FA0-4D45-B4DB-137B1B1A291E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C4830C-8FA0-4D45-B4DB-137B1B1A291E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C4830C-8FA0-4D45-B4DB-137B1B1A291E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C4830C-8FA0-4D45-B4DB-137B1B1A291E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B62D97B-251D-4F7D-91E8-62F58AD33CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B62D97B-251D-4F7D-91E8-62F58AD33CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B62D97B-251D-4F7D-91E8-62F58AD33CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B62D97B-251D-4F7D-91E8-62F58AD33CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
